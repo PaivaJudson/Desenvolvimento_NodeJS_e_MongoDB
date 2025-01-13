@@ -15,7 +15,7 @@ app.get('/formulario', function(request, response){
 });
 
 app.get('/noticias', function(request, response){
-    response.render("noticias/noticia");
+    response.render("noticias/noticia.ejs");
 });
 
 app.listen(3000, function(){
