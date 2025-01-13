@@ -1,0 +1,22 @@
+{
+  "name": "1_primeiros_passos",
+  "version": "1.0.0",
+  "description": "portal de noticias",
+  "main": "noticias.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaivaJudson/Desenvolvimento_NodeJS_e_MongoDB.git"
+  },
+  "author": "Judson Paiva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaivaJudson/Desenvolvimento_NodeJS_e_MongoDB/issues"
+  },
+  "homepage": "https://github.com/PaivaJudson/Desenvolvimento_NodeJS_e_MongoDB#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
