@@ -6,16 +6,16 @@ app.set('view engine', 'ejs');
 
 
 app.get('/', function(request, response){
-    response.end("<html><body>Portal de notícias</body></html>");
+    response.render("home/index");
 });
 
-app.get('/tecnologia', function(request, response){
+app.get('/formulario', function(request, response){
     // response.end("<html><body>Notícias de Tecnologia</body></html>");
-    response.render("secao/tecnologia");
+    response.render("admin/form_add_noticia");
 });
 
-app.get('/moda', function(request, response){
-    response.end("<html><body>Notícias de Moda</body></html>");
+app.get('/noticias', function(request, response){
+    response.render("noticias/noticia");
 });
 
 app.listen(3000, function(){
