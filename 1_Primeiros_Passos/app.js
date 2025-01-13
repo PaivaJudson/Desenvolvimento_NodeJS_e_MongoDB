@@ -1,5 +1,6 @@
 
 const express = require('express');
+const mod_teste = require('./mod_teste');
 const app = express();
 
 app.set('view engine', 'ejs');
@@ -20,4 +21,5 @@ app.get('/noticias', function(request, response){
 
 app.listen(3000, function(){
     console.log("servidor escutando");
+    console.log(mod_teste());
 });
