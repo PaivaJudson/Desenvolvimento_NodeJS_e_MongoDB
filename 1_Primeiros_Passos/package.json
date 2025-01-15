@@ -18,6 +18,7 @@
   "homepage": "https://github.com/PaivaJudson/Desenvolvimento_NodeJS_e_MongoDB#readme",
   "dependencies": {
     "ejs": "^3.1.10",
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "mysql": "^2.13.0"
   }
 }
